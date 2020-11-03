@@ -13,7 +13,7 @@ const getThemesList = async ({ commit }) => {
   }));
   commit(types.GET_THEMES, promiseThemes);
 };
-
+//addTheme se vuelve funcion en mutation mucho ojo
 const addTheme = ({ commit }, { type, title, description }) => {
   commit(types.ADD_THEME, {
     type,

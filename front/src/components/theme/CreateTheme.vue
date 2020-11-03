@@ -4,9 +4,7 @@
       <v-flex>
         <span v-if="state.currentPage == 'list'">
           <span>My Themes</span>
-          <v-btn color="success" @click="changeState()">
-            New Theme
-          </v-btn>
+          <v-btn color="success" @click="changeState()">New Theme</v-btn>
           <list-Theme />
         </span>
 

@@ -1,6 +1,7 @@
 import Vuex from "vuex";
 import module1 from "./modules/blog";
 
+//creamos nuestros estados
 const createStore = () => {
   return new Vuex.Store({
     modules: {

@@ -1,14 +1,23 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-
+import Login from "../views/Login.vue";
+import SingUp from "../components/login/SingUp.vue";
 Vue.use(VueRouter);
 
 const routes = [
   {
+    //si la ruta es la principal se mostrar la plantilla del archivo Home
     path: "/",
-    name: "Home",
     component: Home
+  },
+  {
+    path: "/login",
+    component: Login
+  },
+  {
+    path: "/singup",
+    component: SingUp
   },
   {
     path: "/about",
